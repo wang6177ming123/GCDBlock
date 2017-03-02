@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+//声明变量
+typedef void (^ActionBlock)(void);
 @interface ViewController : UIViewController
 
+//定义
+- (void)had:(ActionBlock)action;
 
 @end
 
